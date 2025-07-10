@@ -187,6 +187,7 @@ main{
     background-color: rgba(255, 255, 255, 0.5);
     box-shadow: 10px 10px 15px 10px rgba(242, 237, 237, 1);
     border-radius: 14px;
+
 }
 .feedback-title{
     text-align: center;
@@ -196,4 +197,86 @@ main{
     width: 1140;
     height: 49px;
     margin-bottom: 60px;
+}
+/* focus container style */
+.focus-container-main{
+    width:1140px;
+    height: 696.77px;
+    gap: 20px;
+    border-radius: 14px;
+}
+.focus-container{
+    padding: 71px 150px;
+}
+.focus-title{
+    font-size: 50px;
+    font-weight: 700px;
+    width: 516px;
+    height: 60px;
+    color: rgba(0, 0, 0, 1);
+    padding-left: 170px;
+    margin-bottom: 20px;
+}
+.focus-sub-title{
+    width: 487px;
+    height: 22px;
+    color: rgba(0, 0, 0, 0.5);
+    padding-left: 180px;
+    margin-top: 0;
+}
+.focus-btn{
+    width: 195px;
+    height: 48px;
+    padding: 12px 36px;
+    background-color: rgba(78, 71, 255, 1);
+    border-radius: 10px;
+    color: rgba(255, 255, 255);
+    margin-left: 295px;
+    margin-bottom: 20px;
+}
+.focus-img{
+    width: 840px;
+    height: 364.77px;
+    border: 48px;
+
+}
+/*  Let’s Get In Touch Section  */
+.touch-section{
+    height: 632px;
+    margin-top: 116px;
+    background-color: rgba(214, 221, 237, 1);
+  
+}
+.touch-container{
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.touch-container lebel{
+    width: 497px;
+    height: 22px;
+    font-size: 18px;
+    font-weight: 500px;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 20px;
+}
+.touch-from{
+    width: 497px;
+    height: 490px;
+    padding:120px 0 0;
+}
+.touch-from lebel{
+    width: 497px;
+    height: 22px;
+}
+.touch-from input{
+    width: 493px;
+    height: 70px;
+    border: none;
+}
+.textarea{
+       width: 492px;
+    height: 70px;
+    border: none;
 }
