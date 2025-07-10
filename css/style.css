@@ -54,3 +54,45 @@ header{
     border-radius: 10px;
     margin-top: 37px;
 }
+/* main section style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.action-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 116px;
+}
+.left-action-container{
+    width: 517px;
+    height: 203px;
+}
+.action-title{
+    width: 517px;
+    height: 49px;
+    font-size: 42px;
+    font-weight: 700px;
+    color: rgba(37, 36, 50, 1);
+}
+.action-sub-title{
+    font-size: 60px;
+    font-weight: 517px;
+    font-size: 24px;
+    color: rgba(37, 36, 50, 0.5);
+}
+.action-btn{
+    width: 229px;
+    height: 48px;
+    padding: 12px 36px;
+    gap: 10px;
+    border-radius: 10px;
+    background-color: rgba(78, 71, 255, 1);
+    color: rgba(255, 255, 255, 1);
+}
+.action-img{
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
+}
